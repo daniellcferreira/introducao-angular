@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class MyFirstComponentComponent {
 
+  public year: number = 2024
+
+  aumentarAno() {
+    this.year = this.year + 1;
+  }
+
+  diminuirAno() {
+    this.year = this.year - 1;
+  }
 }
