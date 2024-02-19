@@ -1,4 +1,10 @@
 <p>Componente pai</p>
-<app-banner></app-banner>
+<app-banner (onClick)="receberResult($event)"></app-banner>
+
+<div *ngFor="let cat of listOfCats$ | async">
+    {{cat | json}}
+</div>
+
+
 
 

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BannerComponent } from './banner/banner.component';
 import { HomeComponent } from './home.component';
-
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -10,7 +10,7 @@ import { HomeComponent } from './home.component';
     HomeComponent, BannerComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, HttpClientModule
   ],
   exports: [HomeComponent, BannerComponent]
 })
