@@ -8,6 +8,9 @@ import { ParentsDataComponent } from './components/parents-data/parents-data.com
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { EventsComponent } from './components/events/events.component';
     ParentsDataComponent,
     DirectivesComponent,
     IfRenderComponent,
-    EventsComponent
+    EventsComponent,
+    EmitterComponent,
+    ChangeNumberComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule,
