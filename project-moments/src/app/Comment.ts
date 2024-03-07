@@ -1,4 +1,4 @@
-export interface Moment {
+export interface Comment {
   id?: string;
   text: string;
   username: string;
